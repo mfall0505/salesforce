@@ -1,0 +1,15 @@
+<apex:page Controller="acctController">
+<apex:form >
+        <apex:inputText value="{!account.name}"/>
+        <br/>
+        <apex:inputText value="{!account.phone}"/>
+        
+        <apex:commandButton value="Save" Action="{!save}"/>
+
+</apex:form>
+
+
+   
+    
+      
+</apex:page>
